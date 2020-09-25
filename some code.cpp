@@ -11,3 +11,16 @@ void push(int d) {
     pdata=tmp;
 }
 
+int count=0, *pdata=NULL;
+void push(int d) {
+    int i, t, *tmp;
+    tmp=new int[count+1];
+    for(int i=0; i<count; i++) {
+        t=pdata[i];
+        tmp[i]=t;
+    }
+    tmp[count++]=d;
+    delete [] pdata;
+    pdata=tmp;
+}
+
