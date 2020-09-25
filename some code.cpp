@@ -32,3 +32,12 @@ int somefunc(int **data, int cnt) {
             sum+=data[::i][i];
     return sum;
 }
+
+int i=1;
+int whereisi() {
+    int i=2, cnt=5;
+    for(i; i<cnt; i++ )
+        for( int i=3; i<cnt; i++ )
+            cout<<"i = " << i <<" ::i = " << ::i << endl;
+    return i;
+}
