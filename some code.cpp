@@ -24,3 +24,11 @@ void push(int d) {
     pdata=tmp;
 }
 
+
+int somefunc(int **data, int cnt) {
+    int i, sum;
+    for( sum=0, i=0; i<cnt; i++ )
+        for( int i=0; i<cnt; i++ )
+            sum+=data[::i][i];
+    return sum;
+}
