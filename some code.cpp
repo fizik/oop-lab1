@@ -40,7 +40,7 @@ int whereisi() {
     for(i; i<cnt; i++ )
         for( int i=3; i<cnt; i++ )
             cout<<"i = " << i <<
-                " ::i = " << ::i
-                << endl;
+               " ::i = " << ::i <<
+               endl;
     return i;
 }
