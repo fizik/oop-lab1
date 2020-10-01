@@ -34,7 +34,6 @@ class TheCollection { // На динамическом массиве
   public:  
     TheCollection();
     TheCollection(const TheCollection&);
-    TheCollection(const TheCollection&&);
     ~TheCollection();
     void add(const TheData &obj);
     void del(int pos);
