@@ -45,6 +45,10 @@ TheCollection::TheCollection() {
 }
 
 // В стиле С++98 можно так:
-TheCollection::TheCollection() :objects(NULL),count(0),allocated(0) {
+TheCollection::TheCollection()
+  : objects(NULL)
+  , count(0)
+  , allocated(0)
+{
 }
 
