@@ -37,7 +37,6 @@ class TheCollection { // На динамическом массиве
     ~TheCollection();
     void add(const TheData &obj);
     void del(int pos);
-    void del(const TheData &obj);
     void insert(int pos, const TheData &d);
     TheData &get(int pos) const;
     void set(int pos, const TheData&);
